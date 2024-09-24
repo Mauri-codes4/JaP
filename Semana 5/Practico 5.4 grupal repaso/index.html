@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Sprint 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--
+  Paula Sattler
+  Luciano Piñeyro
+  Pablo Durán
+  Brian Gonzalez
+  Mauricio Cabrera
+  Marcelo Lujan
+-->
+
+<body>
+    <main>
+        <section class="semana1">
+            <h2>Semana 01: Introducción al Desarrollo Web</h2>
+            <hr>
+
+            <img src="https://programacionymas.com/images/tutoriales/desarrollo-web/desarrollo-web.png" alt="">
+
+            <li>Desarollo web VS Diseño web</li>
+            <p>El diseño web determina la apariencia y la percepción de un sitio web. Comprende el diseño, la navegación y la gama de colores del sitio web. </p>
+            
+            <li>Que es una aquitectura de sofware</li>
+            <p>Inicialmente, la programación era un arte complejo, pero con el tiempo se desarrollaron métodos y guías, llamados arquitectura de software, que definen la estructura y funcionamiento del software, como los planos de un edificio.</p>
+            
+            <li>Adquitectura cliente-servidor</li>
+            <p>La interacción cliente-servidor es el soporte de la mayor parte de la comunicación por redes. Ayuda a comprender las bases sobre las que están construidos los algoritmos distribuidos.</p>
+            
+            <li>Roles y Etapas en el desarollo web</li>
+            <p>Roles: Frontend, Backend y Fullstack. <br>
+                Etapas: Planificacion, Diseño, Desarrollo, Despliegue y Soporte</p>
+            
+            <li>Que son html y css</li>
+            <p> - HTML: significa Lenguaje de Marcado para Hipertextos, es el elemento de construcción más básico de una página web y se usa para crear y representar visualmente una página web. Determina el contenido de la página web, pero no su funcionalidad.</p>
+            <p> - CSS que significa Hojas de Estilo en Cascada -Cascading Style Sheets- es el lenguaje utilizado para describir la presentación de documentos HTML.</p>
+            
+            <li>Que es un editor de texto</li>
+            <p>El editor de texto es un programa especializado para trabajar con archivos en texto plano, es decir archivos con texto dentro. En el correr del curso, haremos siempre uso de uno muy recomendado llamado Visual Studio Code.</p>
+            
+            <li>Como comienzo a escrbir HTML</li>
+            <P>- Define el tipo de documento. <br>
+              - Estructura básica de la página. <br>
+              - Elementos de contenido.</P>    
+              
+            <li>Como comienzo a usar css</li>
+            <p>Crea un nuevo archivo en Visual Studio Code, y guárdalo con nombre estilos.css en el mismo directorio donde guardaste el archivo index.html. Luego, se enlaza al HTML con el elemento link.</p>
+            
+            <li>Herramientas del desarrollador web</li>
+            <p>Para el desarrollo web con JavaScript, básicamente haremos uso constante de dos herramientas. <br>
+                - Editor de texto: Visual Studio Code. <br>
+                - Herramienta de inspección web: herramienta del desarrollador de Google Chrome.
+              </p>
+
+
+
+
+
+        </section>
+        
+        <article class="semana2">
+            <h2>Semana 02: Introducción al HTML</h2>
+            <hr>
+
+            <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2022/07/what-is-html.jpg" alt="">
+
+            <p style="padding: 0;">En esta semana aprendimos cómo dar estructura a una página web usando HTML. HTML significa Hypertext Markup Language y es el lenguaje estándar usado para crear y diseñar páginas web. Para organizarlo se utilizan etiquetas, que a su vez estructuraran el contenido de las páginas web y definen elementos como encabezados, párrafos, enlaces, imágenes, formularios, etc. Las páginas web están pensadas para ser vistas mediante los programas llamados navegadores web, que interpretan estas páginas que en esencia son documentos de texto.
+            </p>
+            <h3>Las etiquetas más comunes son:</h3>
+        <ul>
+              <li>La primera etiqueta <span>!DOCTYPE</span> es obligatoria e indica el tipo de documento (DOCTYPE) de la página. Existen varios tipos de documentos que corresponden a las diferentes versiones de HTML y XHTML. El tipo "html" es el que corresponde al HTML5. </li>
+              <li>
+                <span>head: </span>Contiene metadatos y enlaces a recursos externos como hojas de estilo y scripts.
+              </li>
+              <li>
+                <span>title:</span> Especifica el título del documento que aparece en la pestaña del navegador.
+              </li>
+              <li>
+                <span>body: </span>Contiene el contenido visible de la página web.
+              </li>
+              <li>
+                <span>h1 a h6:</span> Definen encabezados, siendo h1 el más importante y h6 el menos importante.
+              </li>
+              <li>
+                <span>p:</span> Define un párrafo de texto.
+              </li>
+              <li>
+                <span>a:</span> Define un hipervínculo; el atributo `href` especifica la URL del destino del enlace.
+              </li>
+              <li>
+                <span>img:</span> Inserta una imagen; los atributos comunes son `src` para la fuente de la imagen y `alt` para el texto alternativo.
+              </li>
+              <li>
+                <span>div:</span> Define una división o sección en un documento HTML; se usa para agrupar elementos y aplicar estilos o scripts.
+              </li>
+        </ul>
+        <p>Los elementos vacíos (los que no pueden contener texto) no tienen etiqueta de cierre. La etiqueta de apertura puede acabar en "/>". Las etiquetas vacías (void) de HTML son area, base, br, col, embed, hr, img, input, link, meta, param, source, track y wbr. </p>
+      <h3>Atributos</h3>
+      <p>Las etiquetas de apertura pueden contener uno o varios atributos. Los atributos especifican alguna característica de la etiqueta. Los atributos pueden a su vez tener valores (uno o varios valores, separados por espacios). El valor de cada atributo es asignado mediante el signo igual "=" (salvo en el caso de los atributos booleanos, que no requieren asignación). Cada atributo puede contener más de un valor, separados por un espacio, por lo que los valores no pueden contener espacios internos.</p>
+        <h3>Algunos de los atributos principales:</h3>
+        <ul>
+          <li>El atributo <span>class</span> permite definir clases de elementos. Cuando se define una clase de elemento, la regla se aplica únicamente a los elementos de ese tipo que tienen esa clase. Un elemento puede tener asignado varias clases.</li>
+          <li>El atributo <span>id</span> permite identificar de forma unívoca un elemento en un documento. Por ello, en una página web no puede haber dos elementos con el mismo valor en el atributo id.</li> 
+          <li>El atributo <span>style</span> permite definir propiedades de estilo a un elemento determinado.</li>
+        </ul>
+        </article>
+
+
+        <section class="semana3">
+            <h2>Semana 03: Introducción al CSS</h2>
+            <hr>
+
+            <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2024/01/wp-advanced-css-techniques-1024x536.jpg" alt="">
+
+            <li><strong>Qué es CSS?</strong></li>
+            <ul>Cascading Style Sheets CSS es un lenguaje que maneja el diseño y presentación de la páginas web
+                se lo denomina hojas en estilo <strong>"en cascada"</strong> porque las reglas de estilo pueden ser aplicadas de forma jerárquica, 
+                permitiendo que estilos más específicos sobrescriban estilos más generales. CSS es fundamental para separar el contenido de una
+                 página HTML de su apariencia, facilitando la creación de un diseño visual coherente y consistente en un sitio web.
+
+                La sintaxis básica de CSS se compone de selectores y declaraciones. Los selectores identifican los elementos HTML que se van a estilizar, mientras que las declaraciones definen las propiedades y valores que se aplicarán a esos elementos.</ul>
+            <li><strong>Como se implementa?</strong></li>
+            <ul>Se puede utilizar los estilos en linea directamente en el style del elemento, los estilos internos se 
+                implementan en el style del document del html, y por ultimo y el mas importante es el estilo externo
+                el cual hay enlazarlo al html con la etiqueta link.
+            </ul>
+            <img src="https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.30808-6/242092431_360404782542354_122780931746692616_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=-K2ZY1izTh0Q7kNvgFLeHoI&_nc_ht=scontent.fmvd1-1.fna&oh=00_AYAvZJuRIBT6BbVX0KBMZE1tbJMEyoUZnznWzP2fGXhvqg&oe=66B5F121" alt="">
+            
+            <li><strong>Selectores</strong></li>
+            <ul>
+              <li><span>Selector de tipo E:</span> Si se escribe una etiqueta (E), las propiedades afectan a todos los elementos con etiqueta E.</li>
+              <li><span>Selector universal *:</span>Si se escribe un asterisco (*), las propiedades afectan a todos los elementos de la página. </li>
+              <li><span>Selector de clase : E.e</span> Si se escribe una etiqueta seguida de un punto y un nombre de clase (E.e), las propiedades afectan a todos los elementos con etiqueta E cuyo atributo class tenga el valor e.</li>
+              <li><span>Selector de identificador (id) E#e:</span> Si se escribe una etiqueta seguida de una almohadilla y un nombre de id (E#e), las propiedades afectan al elemento con etiqueta E cuyo atributo id tenga el valor 'e'.</li>
+              <li><span>Selector de descendientes E F:</span> Si se escriben dos etiquetas separadas por un espacio (E F) las propiedades afectan a los elementos con la segunda etiqueta (F) contenidos dentro de la primera etiqueta (E), aunque haya etiquetas intermedias. </li>
+              <li><span>Selector de hijos E > F:</span> Si se escriben dos etiquetas seguidas separadas por un signo "mayor que" (E > F), las propiedades afectan a los elementos con la segunda etiqueta (F) contenidos dentro de la primera etiqueta (E), pero no lo selecciona si hay etiquetas intermedias entre ellos.</li>
+              <li><span>Selector de consecutivos E + F:</span>Si se escriben etiquetas separadas por un signo "más" (E + F), las propiedades afectan únicamente a los elementos con la última etiqueta (F) que van justo después de un elemento con la etiqueta (E). </li>
+              <li><span>Selector de grupo E, F:</span>Los selectores de grupo, son en realidad varios selectores 'unidos' para darles el mismo estilo a todos los elementos seleccionados.  </li>
+              </ul>
+
+            <li><strong>Funcionalidades Basicas</strong></li>
+            <ul>
+              <li><span>Color:</span> Define el color de texto, fondos y bordes utilizando palabras clave, RGB, HEX, HSL, etc. <br>
+                Ejemplo: color: red;, background-color: #f0f0f0;</li>
+              <li><span>Dimensiones:</span> Define el ancho y alto de elementos. <br>
+                Ejemplo: width: 100px;, height: 200px;</li>
+              <li><span>Tipografía:</span> Controla las propiedades de las fuentes, como tipo, tamaño, estilo y alineación. <br>
+                Ejemplo: font-family: Arial, sans-serif;, font-size: 16px;, text-align: center;</li>
+              <li><span>Espaciado:</span> Gestiona el espacio alrededor de elementos mediante margin y padding. <br>
+                Ejemplo: margin: 10px;, padding: 20px;</li>
+              <li><span>Bordes:</span> Define el estilo, color y grosor de los bordes.<br>
+                Ejemplo: border: 1px solid black;, border-radius: 10px;</li>
+              <li><span>Visualización (Display):</span> Controla cómo se muestran los elementos en pantalla (block, inline, flex, etc.).<br>
+                  Ejemplo: display: flex;, display: none;</li>
+              </ul>
+            
+        </section>
+
+        <article class="semana4">
+            <h2>Semana 04: Introducción a JavaScript (DOM, HTTP y Fetch)</h2>
+            <hr>
+            
+            <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2023/06/javascript-and-react-01-1024x512.jpg" alt="">
+
+            <li>Como incluir un archivo JavaScript?</li>
+            <ul>Para incluir un JS, debemos agregar la etiqueta 'script', dentro de esa etiqueta, se encuentra el
+                atributo src. Con ese atributo, podemos determinar la ubicación del archivo JS a agregar.
+                Se puede incluir en el 'head' o en el 'body'.
+            </ul>
+
+            <li>Estructura de codigo</li>
+            <ul>En cuanto a la estructura de codigo, se recomienda tener una sentencia por linea de codigo, colocar el
+                punto y coma al finalizar la sentencia, aunque puede ser omitido en algunos casos haciendo uso del salto
+                de linea. Por ulktimo los comentarios pueden ser agregados en cualquier parte del codigo, los
+                comentarios de multiples lineas pueden ser agregados con /* */, mientras que los comentarios de na linea
+                pueden ser con //.</ul>
+
+            <li>Funciones y variables</li>
+            <ul>Las funciones, son utiles para organizar el código, hacerlo mas amigable y evitar código repetido. Dentro de la función, se
+                detalla un codigo determinado y luego, mas adelante, se puede llamar a esa función cuando se necesite.<br>
+                Las funciones se declaran con la palabra clave 'function' seguido del nombre de la misma: <strong>function hola(parametro1){}</strong> - dentro de las llaves se detalla el código de la función.
+                Luego, para llamar la funcion, se debe poner: <strong>hola(12);</strong> <br>
+                Dentro de los parentesis, se pueden especificar parametros que se pueden usar dentro de las función, estos van separados por una coma. En el ejemplo anterior, <strong>parametro1 = 12.</strong> <br>
+                Otro detalle a tener en cuenta, es que una función puede tener un <strong>return</strong>, esta palabra clave se usa cuando queremos que la función devuelva algún valor</ul>
+                
+            <li>DOM (Document object model)</li>
+
+            <img src="https://www.freecodecamp.org/news/content/images/2021/09/Document.jpg" alt="">
+
+            <ul>Permite acceder y manipular los elementos de un HTML a través de nodos. DOM permite crear, eliminar un elemento, manipular una clase, etc. Sin 
+            necesidad de cambiar la página original.         <br>      <br>    
+            <strong>Tipos de nodos:</strong> <br> 
+              Document: nodo raíz. <br> 
+              Element: Repreenta cada una de las etiquetas HTML.<br> 
+              Attrc: Representa cada uno de los atributos de las eti uetas de HTML.<br> 
+              Text: nodo que contiene texto encerrado en una etiqueta  HTML.<br> 
+            <br> 
+           <strong> Varias maneras de acceder a un determinado nodo:</strong><br> 
+            
+              - getElementsByTagName("etiquetaHTML"): Devuelve una colección de todos los elementos con el nombre de la etiqueta especificada.<br> 
+              - getElementsByName("nameHTML"): Devuelve una colección de todos los elementos con el atributo name especificado.<br> 
+              - getElementById("id"): Devuelve el elemento que tiene el ID especificado.  <br>
+              - querySelector("selector"): Devuelve el primer elemento que coincide con el selector especificado. <br>
+              - querySelectorAll("selector"): Devuelve una colección de todos los elementos que coinciden con el selector especificado.</ul>         
+            <li>JSON</li>
+            <ul> Son cadenas de texto que se utilizan cuando se quieren trasmitir datos a traves de una red. Un objeto JSON puede ser almacenado en su propio archivo, que es  un archivo de texto, con su estructura específica y con la extensión ".json". Dentro de un JSON, es posible incluir: cadenas, número s, arreglos, booleanos, y otros literales de objeto. Hay veces que se recibe una cadena JSON sin procesar, por lo que habra que procesarla con metodos de JavaScript. El metodo parse(): Acepta una cadena JSON como parámetro, y devuelve el objeto JavaScript correspondiente. El metodo: stringify(): Acepta un objeto como parámetro, y devuelve la forma de cadena JSON equivalente.</ul>
+            <li>HTTP</li>
+            <ul>(HyperText Transfer Protocol) está diseñado para permitir una comunicación entre clientes y servidores. Por ejemplo, alguien envia una request mediante una aplica
+oni solicitando informacion a un
+ base de datos que es controlada mediante una API. Esta API va a dar una response al usuario con determinados datos. Los prrrogramadores deben utilizar esa response y mostrarsela al usuario en la interface de la aplciacion. Tenemos diferentes m todos: GET, POST, PUT, DELETE, PATCH. Los mas usados son el metodo GET, que sirve para obtener la informacion, el metodo POST q e funciona para insertar algun dato en la base de datos entre otras cosas y el metodo PUT para modificar algun dato de la BD.          </ul>
+            <li>FETCH</li>
+            <ul>El metodo AJAX, permite pedir informacion a sevridores de forma asincronica, sin tener que refrescar la pagina. Para eso hoy en dia hay un estandar llamado FETCH. Esto se compone de la url y de las opciones que son paramentros opcionales al enviar la solicitud. Primero, la promesa, devuelta por fetch, se resuelve con un objeto del tipo RESPONSE tan pronto cómo el servidor (al que se le realizó el pedido) responda.
+
+            </ul>
+        </article>
+    </main>
+

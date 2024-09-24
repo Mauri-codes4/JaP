@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(216, 222, 243);
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+body p{
+    line-height: 1.4;
+    padding-left: 40px;
+}
+
+body ul{
+    line-height: 1.4;
+}
+    
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    background-color: rgb(168, 219, 235);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px -6px rgba(0,0,0,0.75);
+    padding: 5px 0;
+}
+h4{
+    padding-left: 3%;
+}
+
+li{
+    font-weight: 600;
+}
+
+span{
+    font-weight: 600;
+    color: rgba(69, 59, 156, 0.76);
+}
+
+img{
+    max-width: 600px;
+    border-radius: 40px;
+    display: block;
+    margin: 30px auto;
+}
+
+.semana1 li{
+    font-size: 20px;
+}
+
+.semana1 img{
+    max-width: 600px;
+    border-radius: 40px;
+    display: block;
+    margin: 30px auto;
+}
+
+.semana2 li{
+    font-weight: 400;
+}
+
+.semana3 li{
+    font-weight: 400;
+}
+
+.semana3 img{
+    max-width: 600px;
+    border-radius: 40px;
+    display: block;
+    margin: 30px auto;
+}
+
